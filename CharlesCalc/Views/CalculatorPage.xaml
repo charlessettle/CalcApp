@@ -84,7 +84,7 @@
         <ScrollView>
             <Grid BackgroundColor="White" VerticalOptions="FillAndExpand" Padding="10"
                   RowSpacing="10" RowDefinitions="Auto,*,*,*,*,*" ColumnDefinitions="*,*,*,*">
-                <Label MaxLines="3" x:Name="lblTitle" Text="{Binding Equation}" Grid.Column="0" IsEnabled="False" Grid.Row="0" Grid.ColumnSpan="4" FlowDirection="RightToLeft">
+                <Label TextColor="Black" BackgroundColor="White" MaxLines="3" x:Name="lblTitle" Text="{Binding Equation}" Grid.Column="0" IsEnabled="False" Grid.Row="0" Grid.ColumnSpan="4" FlowDirection="RightToLeft">
 
                 </Label>
                 <Button Grid.Column="0" Grid.Row="1" Text="C" TextColor="Black" x:Name="btnClear" Command="{Binding ClearCommand}" Style="{StaticResource GrayButton}"></Button>
